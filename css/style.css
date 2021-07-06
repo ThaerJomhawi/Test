@@ -1,0 +1,75 @@
+body{
+    width:1200px;
+    margin: auto;
+
+}
+
+header{
+    background: grey;
+    padding: 20px;
+    color:white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+main{
+display: grid;
+grid-template-columns: 1fr 1fr;
+min-height: 81vh;
+margin :2%;
+}
+
+#row-1{
+    margin:auto;
+    
+}
+
+#row-2{
+    margin:auto;
+   
+}
+
+#form{
+
+    background: grey;
+    padding: 5px;
+    width:300px;
+}
+
+table {
+    padding: 5px;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+thead{
+    background: rgb(0, 0, 0);
+    color: white;
+    border-bottom: white solid 3px;
+    
+}
+thead th{
+    padding:20px;
+}
+td{
+    padding:20px;
+}
+
+
+ tr:nth-child(odd){
+     background: grey;
+ }
+
+ tr:nth-child(even){
+    background: rgb(53, 50, 50);
+}
+tr{
+    border-bottom: solid white 3px;
+}
+label{
+    padding-bottom: 5px;
+}
+
