@@ -1,75 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+      box-sizing: border-box;
+      margin: 0 auto;
+}
 body{
-    width:1200px;
-    margin: auto;
-
+      font-family: 'Roboto', sans-serif;
+}
+header{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(96, 96, 96,0.6);
 }
 
-header{
-    background: grey;
-    padding: 20px;
-    color:white;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
+h1{
+      height: 70px;
+      color:#fff;
+      font-size: 39px;
+      text-align: center;
+      padding-top: 10px;
 }
 
 main{
-display: grid;
-grid-template-columns: 1fr 1fr;
-min-height: 81vh;
-margin :2%;
+     margin: 10% auto 0 20%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height:72vh;
+
 }
 
-#row-1{
-    margin:auto;
-    
+footer{
+      background-color: rgba(96, 96, 96,0.6);
+      
+      width: 100%;
 }
 
-#row-2{
-    margin:auto;
-   
+fieldset {
+      border: 2px dashed #000;
+      border-radius: 5px;
+      padding: 20px;
+      position:relative;
+      width: 400px;
+
 }
-
-#form{
-
-    background: grey;
-    padding: 5px;
-    width:300px;
-}
-
+//////////////
 table {
-    padding: 5px;
-    width:300px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-thead{
-    background: rgb(0, 0, 0);
-    color: white;
-    border-bottom: white solid 3px;
-    
-}
-thead th{
-    padding:20px;
-}
-td{
-    padding:20px;
-}
-
-
- tr:nth-child(odd){
-     background: grey;
- }
-
- tr:nth-child(even){
-    background: rgb(53, 50, 50);
-}
-tr{
-    border-bottom: solid white 3px;
-}
-label{
-    padding-bottom: 5px;
-}
-
+      width: 500px;
+  }
+  
+  table, th, td {
+      padding: 10px;
+      vertical-align: middle;
+      text-align: center;
+  }
+  
+  tr {
+      border: 2px solid white;    
+  }
+  
+  tr:nth-child(odd){
+      background-color: rgba(96, 96, 96,0.6);
+  }
+  
+  tr:nth-child(even){
+      background-color: rgb(158, 151, 153);
+  }
+  
+  td img {
+      width: 50px;
+  }
